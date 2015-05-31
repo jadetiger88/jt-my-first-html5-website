@@ -18,3 +18,9 @@ function showMe() {
 	result = document.getElementById("result");
 	result.innerHTML = moodString;
 }
+
+function clearMood() {
+	document.getElementById("mood-form").reset();
+	result = document.getElementById("result");
+	result.innerHTML = "";
+}
